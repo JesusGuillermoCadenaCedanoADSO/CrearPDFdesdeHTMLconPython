@@ -1,0 +1,214 @@
+/* Estilos para encabezado */
+.contenedorencabezado {
+    display: flex;
+    align-items: center; 
+    border: solid black;
+    padding:1%;
+}
+  
+  
+  h1 {
+    text-align: center;
+    flex:1;
+    border:solid;
+}
+
+.contenedor_listaencabezado{
+    display:flex;
+    align-items: center;
+    
+}
+
+
+.listaencabezadotitulos {
+    list-style: none;
+    text-align: left;
+    flex:1;
+    font-weight: bold;
+
+}
+.listaencabezadovalores {
+    list-style: none;
+    text-align: center;
+    flex:1/3;
+    
+}
+
+img {
+    margin-right: 20px;
+}
+
+/* Estilos para datos de proyecto */
+
+/* Estilos para datos de cliente */
+.contenedorproyecto {
+    display: flex;
+    align-items: center; 
+}
+
+.contenedor_listadatosproyecto{
+    display: flex;
+    align-items: center;
+    flex:1;
+    text-align: left;
+}
+.listadatosproyectotitulos {
+    list-style: none;
+    text-align: left;
+    flex:1;
+    font-weight: bold;
+}
+.listadatosproyectovalores {
+    list-style: none;
+    text-align: left;
+    flex:1;
+}
+
+
+/* Estilos para datos de plan de muestreo */
+
+.contenedor_listaplanmuestreo{
+    display:flex;
+    align-items: center;
+    flex:1;
+    text-align:left;
+}
+
+.listadatosmuestreotitulos {
+    list-style: none;
+    text-align: left;
+    flex:1;
+    font-weight: bold;
+}
+.listadatosmuestreovalores {
+    list-style: none;
+    text-align: left;
+    flex:1;
+}
+
+
+/* Estilos para coordenadas y altura */
+
+.contenedor_coordenadasaltura {
+    display: flex;
+    align-items: center; 
+}
+
+.listacoordenadastitulos{
+    list-style: none;
+    text-align: left;
+    flex:1;
+    font-weight: bold;
+}
+
+.listacoordenadasvalores{
+    list-style: none;
+    text-align: left;
+    flex:1;
+}
+
+.Altura{
+    flex:10;
+    text-align: left;
+}
+
+/* formato de tabla de resultados */
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+
+  tbody,th, td{
+    border-collapse:collapse;
+    border: 1px solid black;
+    font-size: small;
+  }
+
+  thead th:nth-child(1) {
+    width: 10%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 10%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 10%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 10%;
+  }
+
+  thead th:nth-child(5) {
+    width: 10%;
+  }
+
+  thead th:nth-child(6) {
+    width: 15%;
+  }
+
+  thead th:nth-child(7) {
+    width: 15%;
+  }
+
+  thead th:nth-child(8) {
+    width: 20%;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+  }
+
+
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot{
+    text-align: left;
+  }
+
+
+  /* espacio tabla grafica */
+
+  .contenedor_tablagrafica{
+    display:flex;
+    gap: 100px;
+  }
+
+ .contenedor_tablaresultados{
+  flex:1;
+} 
+
+
+  /* Estilos grafica */
+
+  .contenedor_grafica{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 200px;
+    flex:1;
+  }
+
+/* Estilos tabla profesionales */
+
+.contenedor_profesionales{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  }
+
+.flex-item{
+  width: 25%; /* cuatro columnas */
+  box-sizing: border-box; /* Incluye el padding y border en el width */
+  border: 1px solid black; /* Borde para visualización */
+  padding: 10px; /* Espacio interior */
+  
+}
